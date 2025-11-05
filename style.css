@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&display=swap');
+/* Основные стили */
+
+:root {
+    --fire-color: #DB5F1F;
+}
+
+body {
+    margin: 0;
+    font-family: "Alegreya Sans", sans-serif;
+    background-color: white;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fire-color);
+    color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    width: 115px;
+    height: 33px;
+}
+
+/* Шапка */
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    gap: 25px;
+    font-weight: 500;
+    font-size: 20px;
+}
