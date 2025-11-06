@@ -169,14 +169,22 @@ ul {
     height: 120px;
 }
 
-.services__multiply {
+/* Секция с отправкой заявки */
 
+.main__application {
+    margin-top: 35px;
 }
 
-.services__setting-up {
-
+.main__application .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.services__mailing {
-
+.application__text {
+    margin-bottom: 65px;
+    width: 786px;
+    height: 108px;
+    font-size: 45px;
+    text-align: center;
 }
