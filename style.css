@@ -43,8 +43,15 @@ ul {
     color: white;
     font-weight: 500;
     border-radius: 30px;
-    width: 115px;
+    width: 122px;
     height: 33px;
+}
+
+.btn--big {
+    font-size: 22px;
+    border-radius: 32px;
+    width: 235px;
+    height: 64px;
 }
 
 .link {
@@ -105,4 +112,30 @@ ul {
     gap: 25px;
     font-weight: 500;
     font-size: 20px;
+}
+
+/* Основная контент */
+
+.main__welcome {
+    background-color: var(--main-color);
+}
+
+.main__welcome .container {
+    display: flex;
+    align-items: center;
+}
+
+.welcome__text-wrapper {
+
+}
+
+.welcome__title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #2e2425;
+}
+
+.welcome__img {
+    mix-blend-mode: multiply;
 }
