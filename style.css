@@ -40,11 +40,13 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: var(--fire-color);
+    border: 1px var(--fire-color) solid;
     color: white;
     font-weight: 500;
     border-radius: 30px;
     width: 122px;
     height: 33px;
+    transition: all 0.2s ease;
 }
 
 .btn--big {
@@ -53,6 +55,14 @@ ul {
     width: 235px;
     height: 64px;
 }
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.2s ease;
+}
+
+.btn
 
 .link {
     padding: 0.5rem;
@@ -146,7 +156,7 @@ ul {
 
 }
 
-.services__profit, .services__multiply, .services__setting-up, .services__mailing {
+.services__helping, .services__multiply, .services__setting-up, .services__mailing {
     display: flex;
     align-items: center;
     margin: 0 40px;
