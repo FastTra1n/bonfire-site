@@ -53,7 +53,7 @@ ul {
     align-items: center;
 }
 
-.header__nav {
+.header__menu {
     display: flex;
     gap: 30px;
     align-items: center;
