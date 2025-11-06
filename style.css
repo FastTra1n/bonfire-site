@@ -139,3 +139,34 @@ ul {
 .welcome__img {
     mix-blend-mode: multiply;
 }
+
+/* Секция с услугами */
+
+.main__services {
+
+}
+
+.services__profit, .services__multiply, .services__setting-up, .services__mailing {
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+    width: 1196px;
+    height: 443px;
+}
+
+.services__text-wrapper {
+    width: 620px;
+    height: 120px;
+}
+
+.services__multiply {
+
+}
+
+.services__setting-up {
+
+}
+
+.services__mailing {
+
+}
