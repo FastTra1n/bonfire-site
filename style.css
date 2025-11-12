@@ -19,6 +19,10 @@ a {
     text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 p {
     margin: 0;
 }
@@ -61,8 +65,6 @@ ul {
     color: black;
     transition: all 0.2s ease;
 }
-
-.btn
 
 .link {
     padding: 0.5rem;
@@ -187,4 +189,28 @@ ul {
     height: 108px;
     font-size: 45px;
     text-align: center;
+}
+
+/* Секция с компаниями */
+
+.main__companies .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.companies__text {
+    margin: 135px 0 100px 0;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+
+.companies__logos {
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
 }
