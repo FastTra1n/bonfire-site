@@ -373,3 +373,45 @@ input {
     font-weight: 500;
     font-size: 16px;
 }
+
+@media (max-width: 1421px) {
+    .why-us__benefits {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-us__benefit1, .why-us__benefit2, .why-us__benefit3, .why-us__benefit4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .why-us__benefit1 ul, .why-us__benefit2 ul, .why-us__benefit3 ul, .why-us__benefit4 ul {
+        list-style-position: inside;
+    }
+}
+
+@media (max-width: 1321px) {
+    .companies__logos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px
+    }
+
+    .footer__our-mailing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
