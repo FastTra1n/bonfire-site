@@ -132,6 +132,7 @@ input {
 
 .header::before {
     content: "";
+    left: 0;
     top: 83px;
     position: absolute;
     width: 100%;
@@ -454,6 +455,10 @@ input {
 }
 
 @media (max-width: 821px) {
+    p {
+        font-size: 18px;
+    }
+
     .header .container {
         padding: 0;
         gap: 10px;
@@ -464,27 +469,47 @@ input {
         top: 133px;
     }
 
+    .welcome__title {
+        font-size: 36px;
+    }
+
     .welcome__img {
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
     }
 
     .services__helping img, .services__multiply img, .services__setting-up img, .services__mailing img {
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
     }
 
     .companies__logos {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .why-us__benefit1 img, .why-us__benefit2 img, .why-us__benefit3 img {
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
     }
     
     .main__faq img {
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
     }
+
+    .application__text {
+        width: 100%;
+    }
+
+    .application__text, .companies__text, .why-us__text, .faq__text {
+        font-size: 36px;
+    }
+
+    .why-us__benefits li {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 721px) {
+    
 }
