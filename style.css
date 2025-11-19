@@ -126,6 +126,7 @@ input {
 /* Шапка */
 
 .header {
+    padding: 0 15px;
     background-color: var(--main-color);
 }
 
@@ -393,6 +394,20 @@ input {
 }
 
 @media (max-width: 1321px) {
+    .main__welcome .container {
+        flex-direction: column-reverse;
+    }
+
+    .welcome__text-wrapper {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services__helping, .services__multiply, .services__setting-up, .services__mailing {
+    }
+
     .companies__logos {
         grid-template-columns: repeat(3, 1fr);
     }
