@@ -511,5 +511,43 @@ input {
 }
 
 @media (max-width: 721px) {
+    .btn--big {
+        font-size: 18px;
+        border-radius: 32px;
+        width: 188px;
+        height: 51px;
+    }
     
+    .welcome__title {
+        font-size: 26px;
+    }
+
+    .application__text {
+        margin-bottom: 28px;
+    }
+    
+    .application__text, .companies__text, .why-us__text, .faq__text {
+        font-size: 26px;
+    }
+
+    .faq__task1, .faq__task2, .faq__task3, .faq__task4 {
+        padding: 0 40px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 621px) {
+    .header::before {
+        top: 183px;
+    }
+
+    .header__menu {
+        display: flex;
+        flex-direction: column;
+        gap: 15px
+    }
+
+    .companies__logos {
+        grid-template-columns: 1fr
+    }
 }
