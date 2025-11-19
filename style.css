@@ -58,6 +58,7 @@ input {
     box-sizing: border-box;
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .btn {
@@ -191,13 +192,11 @@ input {
     display: flex;
     align-items: center;
     margin: 0 40px;
-    width: 1196px;
-    height: 443px;
+    margin-bottom: 60px;
 }
 
 .services__text-wrapper {
-    width: 620px;
-    height: 120px;
+    flex: 0 1 620px;
 }
 
 /* Секция с отправкой заявки */
@@ -406,6 +405,23 @@ input {
     }
 
     .services__helping, .services__multiply, .services__setting-up, .services__mailing {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+
+    .services__text-wrapper {
+        flex: 1 1 auto;
+    }
+
+    .services__multiply,
+    .services__mailing {
+        flex-direction: column-reverse;
+    }
+
+    .main__application {
+        margin-top: 65px;
     }
 
     .companies__logos {
