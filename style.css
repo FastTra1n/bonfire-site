@@ -58,7 +58,6 @@ input {
     box-sizing: border-box;
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 .btn {
@@ -415,8 +414,7 @@ input {
         flex: 1 1 auto;
     }
 
-    .services__multiply,
-    .services__mailing {
+    .services__multiply, .services__mailing {
         flex-direction: column-reverse;
     }
 
@@ -426,6 +424,14 @@ input {
 
     .companies__logos {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .faq__task1 {
+        height: 230px;
+    }
+
+    .faq__task3 {
+        height: 290px;
     }
 
     .footer .container {
@@ -444,5 +450,41 @@ input {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media (max-width: 821px) {
+    .header .container {
+        padding: 0;
+        gap: 10px;
+        flex-direction: column;
+    }
+    
+    .header::before {
+        top: 133px;
+    }
+
+    .welcome__img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .services__helping img, .services__multiply img, .services__setting-up img, .services__mailing img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .companies__logos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .why-us__benefit1 img, .why-us__benefit2 img, .why-us__benefit3 img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .main__faq img {
+        width: 100%;
+        height: 100%;
     }
 }
