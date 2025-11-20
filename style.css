@@ -516,6 +516,11 @@ input {
         font-size: 22px;
     }
 
+    input {
+        width: 232px;
+        height: 26px;
+    }
+
     .btn--big {
         font-size: 18px;
         border-radius: 32px;
@@ -570,5 +575,100 @@ input {
         flex-direction: column;
         align-items: center;
         gap: 15px;
+    }
+}
+
+@media (max-width: 421px) {
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .btn--big {
+        font-size: 14px;
+        width: 150px;
+        height: 41px;
+    }
+
+    .btn--inverted {
+        font-size: 14px;
+        width: 167px;
+        height: 28px;
+    }
+
+    .header__list {
+        font-size: 18px;
+    }
+
+    .header__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .welcome__title {
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+
+    .application__text {
+        height: 100%;
+        font-size: 18px;
+    }
+
+    .companies__text {
+        font-size: 22px;
+    }
+
+    .companies__logos img {
+        width: 70%;
+    }
+
+    .why-us__text, .faq__text {
+        font-size: 22px;
+    }
+
+    .rights__copyright {
+        font-size: 14px;
+    }
+
+    .rights__private-policy {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 380px) {
+    .header__menu .btn {
+        display: none;
+    }
+
+    .welcome__title {
+        font-size: 18px;
+    }
+
+    .application__text {
+        font-size: 18px;
+    }
+
+    .why-us__text {
+        font-size: 18px;
+    }
+
+    .faq__text {
+        font-size: 18px;
+    }
+
+    .rights__copyright {
+        font-size: 12px;
+    }
+
+    .rights__private-policy {
+        font-size: 12px;
     }
 }
